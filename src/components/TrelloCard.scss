@@ -1,0 +1,72 @@
+
+   .editcard {
+    float: right;
+    background-color: transparent;
+    border:none;
+    height: 25px;
+    position: relative;
+    top: 52px;
+    right:8px;
+    padding:7px;
+    color: #b0b0b0;
+    
+  }
+  .editcard:hover {
+   background-color:#C0C0C0;
+   color:#000;
+}
+  .eachcard{
+   flex-direction: column;
+    width: 100%;
+    display: inline-flex;
+    background-color: #fff;
+    margin: 6px 0px;
+    height: auto;
+    align-items: center;
+    border-radius: 5px;
+  }
+
+  .image-editor {
+    padding: 5px;
+  }
+  
+  .card-img {
+    height: auto;
+    width: 100%;
+  }
+
+  .input-editing {
+    width: -webkit-fill-available;
+    padding: 10px;
+    border: 0px;
+    border-radius: 5px;
+  }
+  
+  .cardstyle {
+    width: 100%;
+  }
+  
+  .cardlayout {
+    display: flex;
+    width: inherit;
+  }
+
+  .style-image {
+    background-color: white;
+  }
+
+  .icon-layout{
+    font-size: 13px;
+    display: flex;
+    width:100%;
+    justify-content: space-evenly;
+  }
+  .icon-layout>i{
+    color:#a0a0a0
+  }
+
+  div:focus,
+  input:focus,
+  button:focus {
+    outline: none;
+  }

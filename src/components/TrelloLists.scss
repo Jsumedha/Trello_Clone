@@ -1,0 +1,43 @@
+.layout {
+  display: flex;
+  // flex-direction: row;
+}
+
+.Addlist {
+    border: 2px;
+    border-radius: 5px;
+    background-color: #c2c4c5;
+    color:#fff;
+    cursor: pointer;
+    width: 230px;
+    padding: 10px;
+    margin: 0px 10px;
+    position: absolute;
+    top:  75px;
+    
+  }
+ 
+  .titletext {
+    width: 210px;
+    height: 15px;
+    border: 8px solid transparent;
+    border-radius: 5px;
+    padding:5px;
+    margin-bottom:10px;
+   border:2px solid blue
+
+  }
+
+  .newlist {
+    background-color: #dfe3e6;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 8px;
+    width: 240px;
+    margin: 10px 0 0 0;
+    max-height: 100%;
+    
+   
+  }
+
+ 

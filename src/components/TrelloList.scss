@@ -1,0 +1,58 @@
+.list-container {
+    background-color: #dfe3e6;
+    border-radius: 7px;
+    box-sizing: border-box;
+    width: 250px;
+    margin: 5px;
+    max-height: calc(100% - 10px);
+    padding: 15px;
+     display: table;
+    text-align: left;
+  }
+
+  .addcard {
+    border: 2px;
+    border-radius: 4px;
+    height: 70px;
+    width: 230px;
+    font-family: Georgia, serif;
+  }
+  .card {
+    height: auto;
+  }
+  .cardstyle {
+    margin: 10px 0px;
+     height: auto;
+    font-family: 'Segoe UI';
+    font-weight: lighter;
+    position: relative;
+    padding: 0px 10px;
+  }
+
+  .cards-margin {
+    margin-top: -40px;
+  }
+
+  .addcardspan {
+    background-color: #dfe3e6;
+    display:block;
+    height:30px;
+    justify-content: center;
+    margin-top: 7px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .addcardspan:hover
+  {
+  background-color: #c2c4c5;
+   }  
+  
+   .editListTitle{
+    width: 218px;
+    height: 15px;
+    border: 8px solid transparent;
+    border-radius: 5px;
+    padding:7px;
+    margin-bottom:10px;
+   border:2px solid blue
+   }
